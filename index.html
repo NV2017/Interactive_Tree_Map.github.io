@@ -1,0 +1,77 @@
+<!<!DOCTYPE html>
+<html>
+  <head>
+    <title>TreeMap</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- d3 -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <!-- Tree Map -->
+  </head>
+  <body>
+    <div class="bgAnimated">
+      <div class='light x1'></div>
+      <div class='light x2'></div>
+      <div class='light x3'></div>
+      <div class='light x4'></div>
+      <div class='light x5'></div>
+      <div class='light x6'></div>
+      <div class='light x7'></div>
+      <div class='light x8'></div>
+      <div class='light x9'></div>
+    </div>
+
+    <div id="navbar">
+     <p id="DisappearingBox"><b>TreeMap Map</b> demo by <em><b>Arun</b></em></p>
+    </div>
+
+    <h1 id="title" class="pageHeader">Video Game Sales, TreeMap</h1>
+
+    <div class="content">
+      <p id="description"><b>Top 100 Most Sold Video Games Grouped by Platform</b></p>
+      <div id="container" class="container">
+        <svg id='legend'>
+            <g>
+                <rect class="legend-item" x="10" y="0" width="40" height="40" fill="orange"></rect>
+                <text x="60" y="20" fill="black">Action</text>
+            </g>
+            <g>
+                <rect class="legend-item" x="10" y="40" width="40" height="40" fill="lightgreen"></rect>
+                <text x="60" y="60" fill="black">Drama</text>
+            </g>
+            <g>
+                <rect class="legend-item" x="10" y="80" width="40" height="40" fill="crimson"></rect>
+                <text x="60" y="100" fill="black">Adventure</text>
+            </g>
+            <g>
+                <rect class="legend-item" x="10" y="120" width="40" height="40" fill="steelblue"></rect>
+                <text x="60" y="140" fill="black">Family</text>
+            </g>
+            <g>
+                <rect class="legend-item" x="10" y="160" width="40" height="40" fill="pink"></rect>
+                <text x="60" y="180" fill="black">Animation</text>
+            </g>
+            <g>
+                <rect class="legend-item" x="10" y="200" width="40" height="40" fill="khaki"></rect>
+                <text x="60" y="220" fill="black">Comedy</text>
+            </g>
+            <g>
+                <rect class="legend-item" x="10" y="240" width="40" height="40" fill="tan"></rect>
+                <text x="60" y="260" fill="black">Biography</text>
+            </g>
+        </svg>
+      </div>
+    </div>
+
+    <div class="dFooter">
+      <p class="pFooter" id="iFooter">Learn more about developer Arun, click <a href="https://www.linkedin.com/in/arunabha-sarkar/" target="_blank">here for LinkedIn profile</a></p>
+    </div>
+  </body>
+<!--   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+  <script defer src="./script.js"></script>
+</html>
